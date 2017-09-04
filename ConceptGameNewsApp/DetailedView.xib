@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DetailView" customModule="ConceptGameNewsApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="420" height="356"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gameone" translatesAutoresizingMaskIntoConstraints="NO" id="0jH-ys-dYH">
+                    <rect key="frame" x="0.0" y="0.0" width="420" height="178"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title of the video game alsdkf alsdkfj alsdkfm " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r2F-6k-qIo">
+                    <rect key="frame" x="8" y="186" width="404" height="45"/>
+                    <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="extra details to the game " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lLu-Pm-VmY">
+                    <rect key="frame" x="8" y="251" width="404" height="20.5"/>
+                    <fontDescription key="fontDescription" name="Arial-ItalicMT" family="Arial" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By: This Guy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="48H-P2-c1V">
+                    <rect key="frame" x="8" y="298.5" width="97" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BMQ-q3-Dhm">
+                    <rect key="frame" x="338" y="293.5" width="74" height="30"/>
+                    <state key="normal" title="Read more"/>
+                    <connections>
+                        <action selector="readMoreClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="TOG-Yz-W9A"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="BMQ-q3-Dhm" firstAttribute="centerY" secondItem="48H-P2-c1V" secondAttribute="centerY" id="03g-dj-BPY"/>
+                <constraint firstItem="lLu-Pm-VmY" firstAttribute="leading" secondItem="r2F-6k-qIo" secondAttribute="leading" id="3nk-fH-jqU"/>
+                <constraint firstItem="0jH-ys-dYH" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.5" id="KnC-fa-MSp"/>
+                <constraint firstAttribute="trailing" secondItem="0jH-ys-dYH" secondAttribute="trailing" id="MTc-jW-9uR"/>
+                <constraint firstItem="r2F-6k-qIo" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="PWb-Aa-2Rd"/>
+                <constraint firstAttribute="trailing" secondItem="lLu-Pm-VmY" secondAttribute="trailing" constant="8" id="VKw-R7-ARN"/>
+                <constraint firstItem="r2F-6k-qIo" firstAttribute="top" secondItem="0jH-ys-dYH" secondAttribute="bottom" constant="8" id="VM4-uS-iQn"/>
+                <constraint firstItem="48H-P2-c1V" firstAttribute="top" secondItem="lLu-Pm-VmY" secondAttribute="bottom" constant="27" id="VXa-H3-SJU"/>
+                <constraint firstItem="48H-P2-c1V" firstAttribute="leading" secondItem="lLu-Pm-VmY" secondAttribute="leading" id="Yrc-6k-PCm"/>
+                <constraint firstAttribute="trailing" secondItem="r2F-6k-qIo" secondAttribute="trailing" constant="8" id="eTX-8n-tGt"/>
+                <constraint firstItem="0jH-ys-dYH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="fRD-2p-X9l"/>
+                <constraint firstItem="lLu-Pm-VmY" firstAttribute="top" secondItem="r2F-6k-qIo" secondAttribute="bottom" constant="20" id="kCb-G3-wDR"/>
+                <constraint firstItem="0jH-ys-dYH" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="kCd-XX-9Yn"/>
+                <constraint firstAttribute="trailing" secondItem="BMQ-q3-Dhm" secondAttribute="trailing" constant="8" id="nfJ-1y-7vQ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="author" destination="48H-P2-c1V" id="mfW-Ay-wwP"/>
+                <outlet property="descriptionLbl" destination="lLu-Pm-VmY" id="r6S-pz-eeU"/>
+                <outlet property="imgView" destination="0jH-ys-dYH" id="8RL-nT-xJO"/>
+                <outlet property="title" destination="r2F-6k-qIo" id="WPw-Fn-uVB"/>
+            </connections>
+            <point key="canvasLocation" x="56" y="-101"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="gameone" width="512" height="384"/>
+    </resources>
+</document>

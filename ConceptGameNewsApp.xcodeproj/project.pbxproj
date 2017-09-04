@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B0FD29E322CCAD0C5024A6C /* Pods_ConceptGameNewsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE44069BD52A389A99E1B57 /* Pods_ConceptGameNewsApp.framework */; };
+		B94DA2431EF6E4B700F224BE /* PopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94DA2421EF6E4B700F224BE /* PopAnimator.swift */; };
+		B9EBFA5F1EF37B3300EAC066 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EBFA5E1EF37B3300EAC066 /* AppDelegate.swift */; };
+		B9EBFA611EF37B3300EAC066 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EBFA601EF37B3300EAC066 /* ViewController.swift */; };
+		B9EBFA641EF37B3300EAC066 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9EBFA621EF37B3300EAC066 /* Main.storyboard */; };
+		B9EBFA661EF37B3300EAC066 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9EBFA651EF37B3300EAC066 /* Assets.xcassets */; };
+		B9EBFA691EF37B3300EAC066 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9EBFA671EF37B3300EAC066 /* LaunchScreen.storyboard */; };
+		B9EBFA711EF37B4B00EAC066 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B9EBFA701EF37B4B00EAC066 /* Podfile */; };
+		B9EBFA741EF37BAB00EAC066 /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EBFA731EF37BAB00EAC066 /* JSONManager.swift */; };
+		B9EBFA771EF37CE600EAC066 /* StringLiterals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EBFA761EF37CE600EAC066 /* StringLiterals.swift */; };
+		B9EBFA791EF37E0600EAC066 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EBFA781EF37E0600EAC066 /* Structs.swift */; };
+		B9EBFA7D1EF403DE00EAC066 /* CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EBFA7C1EF403DE00EAC066 /* CustomTransition.swift */; };
+		B9EBFA7F1EF405D800EAC066 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EBFA7E1EF405D800EAC066 /* Extension.swift */; };
+		B9EBFA811EF4091600EAC066 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EBFA801EF4091600EAC066 /* DetailViewController.swift */; };
+		B9EBFA831EF4114E00EAC066 /* DetailedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9EBFA821EF4114E00EAC066 /* DetailedView.xib */; };
+		B9EBFA851EF417AA00EAC066 /* DetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EBFA841EF417AA00EAC066 /* DetailedView.swift */; };
+		B9EBFA871EF6C94D00EAC066 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EBFA861EF6C94D00EAC066 /* CustomSegue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		93A9FA2F51A613FE1D0975DB /* Pods-ConceptGameNewsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConceptGameNewsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConceptGameNewsApp/Pods-ConceptGameNewsApp.release.xcconfig"; sourceTree = "<group>"; };
+		B94DA2421EF6E4B700F224BE /* PopAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopAnimator.swift; sourceTree = "<group>"; };
+		B9EBFA5B1EF37B3300EAC066 /* ConceptGameNewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConceptGameNewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9EBFA5E1EF37B3300EAC066 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9EBFA601EF37B3300EAC066 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9EBFA631EF37B3300EAC066 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9EBFA651EF37B3300EAC066 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9EBFA681EF37B3300EAC066 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9EBFA6A1EF37B3300EAC066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9EBFA701EF37B4B00EAC066 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		B9EBFA731EF37BAB00EAC066 /* JSONManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONManager.swift; path = JSONManager/JSONManager.swift; sourceTree = "<group>"; };
+		B9EBFA761EF37CE600EAC066 /* StringLiterals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringLiterals.swift; path = StringLiterals/StringLiterals.swift; sourceTree = "<group>"; };
+		B9EBFA781EF37E0600EAC066 /* Structs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Structs.swift; path = JSONManager/Structs.swift; sourceTree = "<group>"; };
+		B9EBFA7C1EF403DE00EAC066 /* CustomTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTransition.swift; path = JSONManager/CustomTransition.swift; sourceTree = "<group>"; };
+		B9EBFA7E1EF405D800EAC066 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extension.swift; path = JSONManager/Extension.swift; sourceTree = "<group>"; };
+		B9EBFA801EF4091600EAC066 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B9EBFA821EF4114E00EAC066 /* DetailedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailedView.xib; sourceTree = "<group>"; };
+		B9EBFA841EF417AA00EAC066 /* DetailedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedView.swift; sourceTree = "<group>"; };
+		B9EBFA861EF6C94D00EAC066 /* CustomSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
+		F108A40EF966E76FB6D264C2 /* Pods-ConceptGameNewsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConceptGameNewsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConceptGameNewsApp/Pods-ConceptGameNewsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FAE44069BD52A389A99E1B57 /* Pods_ConceptGameNewsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConceptGameNewsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9EBFA581EF37B3300EAC066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0FD29E322CCAD0C5024A6C /* Pods_ConceptGameNewsApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		135F0637FFAB7F376547A4D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F108A40EF966E76FB6D264C2 /* Pods-ConceptGameNewsApp.debug.xcconfig */,
+				93A9FA2F51A613FE1D0975DB /* Pods-ConceptGameNewsApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9FC29BB7A5CF0242A526DBC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAE44069BD52A389A99E1B57 /* Pods_ConceptGameNewsApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9EBFA521EF37B3300EAC066 = {
+			isa = PBXGroup;
+			children = (
+				B9EBFA5D1EF37B3300EAC066 /* ConceptGameNewsApp */,
+				B9EBFA5C1EF37B3300EAC066 /* Products */,
+				135F0637FFAB7F376547A4D8 /* Pods */,
+				9FC29BB7A5CF0242A526DBC0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B9EBFA5C1EF37B3300EAC066 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9EBFA5B1EF37B3300EAC066 /* ConceptGameNewsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9EBFA5D1EF37B3300EAC066 /* ConceptGameNewsApp */ = {
+			isa = PBXGroup;
+			children = (
+				B9EBFA7B1EF383D700EAC066 /* Storyboards */,
+				B9EBFA7A1EF383CC00EAC066 /* ViewControllers */,
+				B9EBFA751EF37CCD00EAC066 /* Literals */,
+				B9EBFA721EF37B9200EAC066 /* objecst/manages */,
+				B9EBFA5E1EF37B3300EAC066 /* AppDelegate.swift */,
+				B9EBFA651EF37B3300EAC066 /* Assets.xcassets */,
+				B9EBFA6A1EF37B3300EAC066 /* Info.plist */,
+				B9EBFA701EF37B4B00EAC066 /* Podfile */,
+			);
+			path = ConceptGameNewsApp;
+			sourceTree = "<group>";
+		};
+		B9EBFA721EF37B9200EAC066 /* objecst/manages */ = {
+			isa = PBXGroup;
+			children = (
+				B94DA2421EF6E4B700F224BE /* PopAnimator.swift */,
+				B9EBFA731EF37BAB00EAC066 /* JSONManager.swift */,
+				B9EBFA781EF37E0600EAC066 /* Structs.swift */,
+				B9EBFA7C1EF403DE00EAC066 /* CustomTransition.swift */,
+				B9EBFA7E1EF405D800EAC066 /* Extension.swift */,
+				B9EBFA861EF6C94D00EAC066 /* CustomSegue.swift */,
+			);
+			name = objecst/manages;
+			sourceTree = "<group>";
+		};
+		B9EBFA751EF37CCD00EAC066 /* Literals */ = {
+			isa = PBXGroup;
+			children = (
+				B9EBFA761EF37CE600EAC066 /* StringLiterals.swift */,
+			);
+			name = Literals;
+			sourceTree = "<group>";
+		};
+		B9EBFA7A1EF383CC00EAC066 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B9EBFA601EF37B3300EAC066 /* ViewController.swift */,
+				B9EBFA801EF4091600EAC066 /* DetailViewController.swift */,
+				B9EBFA841EF417AA00EAC066 /* DetailedView.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B9EBFA7B1EF383D700EAC066 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B9EBFA621EF37B3300EAC066 /* Main.storyboard */,
+				B9EBFA671EF37B3300EAC066 /* LaunchScreen.storyboard */,
+				B9EBFA821EF4114E00EAC066 /* DetailedView.xib */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9EBFA5A1EF37B3300EAC066 /* ConceptGameNewsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9EBFA6D1EF37B3300EAC066 /* Build configuration list for PBXNativeTarget "ConceptGameNewsApp" */;
+			buildPhases = (
+				E31BDA0B5B5972E2AEB9B71B /* [CP] Check Pods Manifest.lock */,
+				B9EBFA571EF37B3300EAC066 /* Sources */,
+				B9EBFA581EF37B3300EAC066 /* Frameworks */,
+				B9EBFA591EF37B3300EAC066 /* Resources */,
+				4EBCF7AE5D520770B992271C /* [CP] Embed Pods Frameworks */,
+				32AEAF84E98C27756F290F0C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConceptGameNewsApp;
+			productName = ConceptGameNewsApp;
+			productReference = B9EBFA5B1EF37B3300EAC066 /* ConceptGameNewsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9EBFA531EF37B3300EAC066 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Devin Yancey";
+				TargetAttributes = {
+					B9EBFA5A1EF37B3300EAC066 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YGZANF244D;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B9EBFA561EF37B3300EAC066 /* Build configuration list for PBXProject "ConceptGameNewsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9EBFA521EF37B3300EAC066;
+			productRefGroup = B9EBFA5C1EF37B3300EAC066 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9EBFA5A1EF37B3300EAC066 /* ConceptGameNewsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9EBFA591EF37B3300EAC066 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9EBFA691EF37B3300EAC066 /* LaunchScreen.storyboard in Resources */,
+				B9EBFA831EF4114E00EAC066 /* DetailedView.xib in Resources */,
+				B9EBFA661EF37B3300EAC066 /* Assets.xcassets in Resources */,
+				B9EBFA711EF37B4B00EAC066 /* Podfile in Resources */,
+				B9EBFA641EF37B3300EAC066 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32AEAF84E98C27756F290F0C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConceptGameNewsApp/Pods-ConceptGameNewsApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EBCF7AE5D520770B992271C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConceptGameNewsApp/Pods-ConceptGameNewsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E31BDA0B5B5972E2AEB9B71B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9EBFA571EF37B3300EAC066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9EBFA611EF37B3300EAC066 /* ViewController.swift in Sources */,
+				B9EBFA851EF417AA00EAC066 /* DetailedView.swift in Sources */,
+				B9EBFA7D1EF403DE00EAC066 /* CustomTransition.swift in Sources */,
+				B94DA2431EF6E4B700F224BE /* PopAnimator.swift in Sources */,
+				B9EBFA7F1EF405D800EAC066 /* Extension.swift in Sources */,
+				B9EBFA741EF37BAB00EAC066 /* JSONManager.swift in Sources */,
+				B9EBFA791EF37E0600EAC066 /* Structs.swift in Sources */,
+				B9EBFA771EF37CE600EAC066 /* StringLiterals.swift in Sources */,
+				B9EBFA5F1EF37B3300EAC066 /* AppDelegate.swift in Sources */,
+				B9EBFA871EF6C94D00EAC066 /* CustomSegue.swift in Sources */,
+				B9EBFA811EF4091600EAC066 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B9EBFA621EF37B3300EAC066 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9EBFA631EF37B3300EAC066 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9EBFA671EF37B3300EAC066 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9EBFA681EF37B3300EAC066 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9EBFA6B1EF37B3300EAC066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9EBFA6C1EF37B3300EAC066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9EBFA6E1EF37B3300EAC066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F108A40EF966E76FB6D264C2 /* Pods-ConceptGameNewsApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YGZANF244D;
+				INFOPLIST_FILE = ConceptGameNewsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devinyancey.ConceptGameNewsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9EBFA6F1EF37B3300EAC066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93A9FA2F51A613FE1D0975DB /* Pods-ConceptGameNewsApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YGZANF244D;
+				INFOPLIST_FILE = ConceptGameNewsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devinyancey.ConceptGameNewsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9EBFA561EF37B3300EAC066 /* Build configuration list for PBXProject "ConceptGameNewsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9EBFA6B1EF37B3300EAC066 /* Debug */,
+				B9EBFA6C1EF37B3300EAC066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9EBFA6D1EF37B3300EAC066 /* Build configuration list for PBXNativeTarget "ConceptGameNewsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9EBFA6E1EF37B3300EAC066 /* Debug */,
+				B9EBFA6F1EF37B3300EAC066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9EBFA531EF37B3300EAC066 /* Project object */;
+}
