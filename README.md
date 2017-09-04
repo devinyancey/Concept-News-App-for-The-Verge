@@ -2,6 +2,7 @@
 Concept News App for The Verge (Idea Only, Not Being Made For Release or Commercial Use)<br />
 Completly written and design by Devin Yancey. <br /> 
 All files not written by me contains actual authors name in file.<br />
+This has a lot of problems that needs to be solved and features that need to be implemented. Current implementation does not represent how thje final impolementation would be.
 #### Used Frameworks:
 1. Alamofire
 2. Alamofire Image
